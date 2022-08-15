@@ -1,0 +1,117 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+  }
+
+ 
+  nav {
+    background: rgba(53, 52, 52, 0.301);
+    backdrop-filter: blur(7px);
+    height: 80px;
+    width: 100%;
+     position: sticky;
+     position: -webkit- sticky;
+    top: 0;
+    z-index: 3;
+  }
+
+  
+  nav ul{
+    float: right;
+    margin-right: 40px;
+    
+  }
+
+  nav ul li{
+    margin: 5px;
+    margin-right: 30px;
+    margin-top: 15px;  
+    display: inline-block;
+    border-right: 2px solid #bbb;
+ }
+  
+  nav ul li a {
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+  }
+  
+  a.active {
+    background: rgba(53, 52, 52, 0.9);
+    color: white;
+    padding: 5px 5px;
+    border-radius: 15px;
+  }
+  
+  
+
+   div.picture {
+    margin: 50px;
+    border: 3px solid #ccc;
+    width: 400px;
+    float: left;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(130, 127, 127, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+    
+  }
+  
+  div.picture:hover {
+    border: 3px solid rgb(214, 212, 212);
+  }
+
+  
+  div.picture img {
+    width: 400px ;
+    height: auto; 
+    border-radius: 10px; 
+
+  }
+
+  .guide{
+      height: 100px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: Georgia;
+    color: white;
+  }
+
+  .footer {
+    padding: 3px;
+     text-align: center;
+     font-size: 20px;
+     background: rgba(45, 43, 43, 0.318);
+     margin-top: 500px;
+     color: white;
+     
+   }
+     
+   
+   .bars {
+    font-size: 30px;
+    margin-left: 40px;
+    color: white;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  
+  #check {
+    display: none;
+  }
+  
+  @media (max-width: 800px) {
+    .bars {
+      display: block;
+    }
+  }
+
