@@ -8,7 +8,7 @@ body {
 
  
   nav {
-    background: rgba(53, 52, 52, 0.301);
+    background: rgba(44, 43, 43, 0.301);
     backdrop-filter: blur(7px);
     height: 80px;
     width: 100%;
@@ -22,7 +22,6 @@ body {
   nav ul{
     float: right;
     margin-right: 40px;
-   
     
   }
 
@@ -32,20 +31,30 @@ body {
     margin-top: 15px;  
     display: inline-block;
     border-right: 2px solid #bbb;
+   
+ }
+
+ li:last-child{
+  border-right: none;
  }
   
   nav ul li a {
     font-size: 23px;
     color: white;
     text-decoration: none;
-    padding: 0px 3px;
+    padding-right: 5px;
   }
+   
+  li a:hover{
   
+    text-decoration: underline ;
+    color: rgb(77, 156, 180);
+   
+  }
   a.active {
-    background: rgb(116, 114, 114);
-    color: white;
-    padding: 5px 5px;
-    border-radius: 15px;
+    text-decoration: underline ;
+    color: rgb(77, 156, 180);
+   
   }
   
   .name {
@@ -57,6 +66,7 @@ body {
     margin-left: 450px;
     position: center;  
     padding: 10px 10px;
+    text-align: center;
   }
 
   .two {
@@ -72,6 +82,9 @@ body {
       border-radius: 2px;
       padding: 15px 30px;
   }
+ .cite{
+  text-align: center;
+ }
 
   .footer {
     padding: 3px;
