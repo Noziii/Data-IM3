@@ -94,19 +94,20 @@ body {
   
 }
 
+.bar:hover {
+   opacity: 0.7; }
+
 .axis path,
 .axis line {
-  fill: none;
-  display:none;
+  fill: white;
+  display: inline;
 }
 
 .label {
   font-size: 13px;
 }
 
-.rect:hover { 
-  fill: #546b7e;
-  opacity: 0.5; }
+
 
 .bars {
   font-size: 30px;
