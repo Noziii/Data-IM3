@@ -56,27 +56,29 @@ body {
     color: rgb(77, 156, 180);
    
   }
+
+  
   
 
-   div.picture {
-    margin: 50px;
+   main.picture {
+    margin: 30px;
     border: 3px solid #ccc;
-    width: 400px;
+    width: 300px;
     float: left;
-    margin-top: 100px;
+    margin-top: 200px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(130, 127, 127, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       
     
   }
   
-  div.picture:hover {
+  main.picture:hover {
     border: 3px solid rgb(214, 212, 212);
   }
 
   
-  div.picture img {
-    width: 400px ;
+  main.picture img {
+    width: 300px ;
     height: auto; 
     border-radius: 10px; 
 
@@ -86,7 +88,7 @@ body {
       height: 100px;
   }
   
-  div.desc {
+  figcaption.desc {
     padding: 15px;
     text-align: center;
     font-family: Georgia;
@@ -98,7 +100,7 @@ body {
      text-align: center;
      font-size: 20px;
      background: rgba(69, 66, 66, 0.318);
-     margin-top: 500px;
+     margin-top: 600px;
      color: white;
      
    }

@@ -115,6 +115,26 @@ body {
     height: 780px;
  }
 
+ .eight{
+  width: 160%;
+  height: 780px;
+}
+
+.nine{
+  width: 160%;
+  height: 780px;
+}
+
+.ten{
+  width: 160%;
+  height: 780px;
+}
+
+.eleven{
+  width: 160%;
+  height: 780px;
+}
+
  .img { 
   vertical-align: middle;
  }
@@ -127,7 +147,7 @@ body {
   width: auto;
   margin-top: 80px;
   padding: 16px;
-  color: rgb(0, 0, 0);
+  color: rgb(95, 93, 93);
   font-weight: bold;
   font-size: 25px;
   transition: 0.6s ease;
