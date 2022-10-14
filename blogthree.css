@@ -59,11 +59,11 @@ body {
   
   .name {
     color: rgb(245, 242, 242);
-    font-size: 70px;
+    font-size: 60px;
     font-family: Georgia;
     font-weight: bold;
     line-height: 120px;
-    margin-left: 210px;
+    margin-left: 80px;
     position: center;  
     padding: 10px 10px;
     text-align: center;
