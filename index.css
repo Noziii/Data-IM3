@@ -1,9 +1,9 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    background-color: black;
+    background-image: url(images/vonvix-i9eWSLMJHO4-unsplash\ \(1\).jpg);
     background-size: cover;
-    height: 170vh;
+    height: 100vh;
   }
 
  
@@ -48,51 +48,38 @@ body {
   li a:hover{
   
     text-decoration: underline ;
-    color: rgb(77, 156, 180);
+    color: rgb(227, 198, 215);
    
   }
   a.active {
     text-decoration: underline ;
-    color: rgb(77, 156, 180);
+    color: rgb(227, 198, 215);
    
   }
 
- .one{
-    color: rgb(204, 204, 204);
-    font-size: 30px;
-    margin-top: 20px; 
-    padding: 10px 85px;
-  }
   
   .name {
-    color: rgb(245, 242, 242);
-    font-size: 90px;
+    color: black;
+    font-size: 130px;
     font-weight: bold;
-    line-height: 80px;
     margin-left: 20px; 
-    padding-left: 75px ;
+    padding-left: 75px;
+    font-family: Playfair Display;
     
   }
 
-  .gallery{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 30px;
-    
+  .name1{
+    color: black;
+    font-size: 130px;
+    font-weight: bold;
+    margin-left: 20px; 
+    padding-left: 90px;
+    font-family: Playfair Display;
+    margin-top: -150px;
+  
   }
-
-  .column{
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 60px;
-  }
-
-  .column img{
-    margin-top: 50px;
-    vertical-align: middle;
-    width: 100%;
-    
-  }
+  
+  
   
   
   .footer {
@@ -100,61 +87,12 @@ body {
     text-align: center;
     font-size: 20px;
     background: rgba(69, 66, 66, 0.318);
-    margin-top: 90px;
+    margin-top: -15px;
     color: white;
     
   }
 
-  .container {
-  position: relative;
   
-  }
-
-  .overlay {
-    position: absolute;
-    margin-top: 20;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 88%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #43464699;
-  }
-  
-  .container:hover .overlay {
-    opacity: 1;
-  }
-  
-  .text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
   
   .bars {
     font-size: 30px;
