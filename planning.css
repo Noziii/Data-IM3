@@ -1,9 +1,9 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      background-image: url(images/mathilde-langevin-LdPzzJcrPLM-unsplash.jpg);
+    background-image: url(images/mathilde-langevin-LdPzzJcrPLM-unsplash.jpg);
     background-size: cover;
-    height: 599vh;
+    height: 442vh;
   }
 
  
@@ -56,20 +56,29 @@ body {
     color:rgb(227, 198, 215);
    
   }
-  
   .name {
     color: rgb(245, 242, 242);
-    font-size: 60px;
+    font-size: 70px;
     font-family: Georgia;
     font-weight: bold;
     line-height: 120px;
-    margin-left: 80px;
+    margin-left: 220px;
     position: center;  
     padding: 10px 10px;
     text-align: center;
+
   }
 
-  .three {
+  .sub{
+    font-weight: bold;
+  }
+
+  .pic {
+    font-family: Georgia;
+    text-align: center;
+  }
+
+  .one {
     text-align: left;
       margin-left: 150px;
       margin-right: 100px;
@@ -77,49 +86,13 @@ body {
       color: rgb(24, 24, 24);
       font-size: 20px;
       font-family: Helvetica light;
-      background-color: rgb(233, 232, 232);
+      background-color: rgb(216, 214, 214);
       line-height: 40px;
       border-radius: 2px;
       padding: 15px 30px;
   }
- .cite{
-  text-align: center;
- }
 
- .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: 80px;
-  padding: 16px;
-  color: rgb(179, 173, 173);
-  font-weight: bold;
-  font-size: 30px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  background-color: black;
- }
-
- /* Position the "next button" to the right */
- .next {
-  right: 0px;
-  border-radius: 3px 0 0 3px;
- }
-
- .prev {
-  left: 0;
-  border-radius: 3px 0 0 3px;
-
- }
-
- /* On hover, add a black background color with a little bit see-through */
- .prev:hover, .next:hover {
-  background-color: rgba(157, 149, 149, 0.8);
-  color: black;
- }
-
+  
 
   .footer {
     padding: 3px;
@@ -150,3 +123,4 @@ body {
         }
       }
       
+ 
