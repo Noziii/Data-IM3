@@ -30,7 +30,7 @@ body {
     margin-right: 30px;
     margin-top: 15px;  
     display: inline-block;
-    border-right: 2px solid #bbb;
+    border-radius: 2px solid #bbb;
    
   }
   
