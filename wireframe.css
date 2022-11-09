@@ -48,12 +48,12 @@ body {
   li a:hover{
   
     text-decoration: underline ;
-    color: rgb(77, 156, 180);
+    color: rgb(227, 198, 215);
    
   }
   a.active {
     text-decoration: underline ;
-    color: rgb(77, 156, 180);
+    color: rgb(227, 198, 215);
    
   }
   
