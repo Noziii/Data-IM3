@@ -10,7 +10,7 @@
 //API FETCH
 async function getData() {
   const api_url =
-    "http://makeup-api.herokuapp.com/api/v1/products.json?brand=covergirl";
+    "https://makeup-api.herokuapp.com/api/v1/products.json?brand=covergirl";
   const api_data = await fetch(api_url);
   const api_json = await api_data.json();
   const data = api_json.slice(0, 3);

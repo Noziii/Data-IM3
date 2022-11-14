@@ -9,7 +9,8 @@
 
 //API FETCH
 async function getData() {
-  var api_url = "https://makeup-api.herokuapp.com/api/v1/products.json";
+  var api_url =
+    "https://makeup-api.herokuapp.com/api/v1/products.json?brand=dior&product_type=lipstick";
   var api_data = await fetch(api_url);
   var api_json = await api_data.json();
   var data = api_json.slice(0, 6);
