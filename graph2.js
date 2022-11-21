@@ -54,7 +54,14 @@ async function getData() {
   function yAxis(g) {
     g.attr("transform", `translate(${margin.left}, 0)`)
       .call(d3.axisLeft(y).ticks(null, data.format))
-      .attr("font-size", "20px");
+      .attr("font-size", "20px")
+      .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", "-3.1em")
+      .attr("text-anchor", "end")
+      .attr("stroke", "black")
+      .text(" Price");
   }
 
   function xAxis(g) {

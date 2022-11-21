@@ -3,7 +3,7 @@ body {
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     background-image: url(images/mathilde-langevin-LdPzzJcrPLM-unsplash.jpg);
     background-size: cover;
-    height: 442vh;
+    height: 899vh;
   }
 
  
@@ -92,6 +92,12 @@ body {
       padding: 15px 30px;
   }
 
+  .subs {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
   
 
   .footer {
@@ -113,14 +119,66 @@ body {
       }
       
       
-      #check {
-        display: none;
-      }
+     
+        @media only screen and (max-width:800px) {
+          /* For tablets: */
+          .main {
+            width: 80%;
+            padding: 0;
+          }
+
+          .pic {
+            width: 80%;
+            padding: 0;
+          }
+
+          .sub {
+            width: 80%;
+            padding: 0;
+          }
+
+          .subs {
+            width: 80%;
+            padding: 0;
+          }
+          
+          
+          
+          
+
+          #check {
+            display: none;
+          }
+          
+          @media (max-width: 800px) {
+            .bars {
+              display: block;
+            }
+        
+            nav ul{
+              position: absolute;
+              width: 100%;
+              background-color: rgba(27, 26, 26, 0.837);
+              height: 100vh;
+              top: 63px;
+              left: -110%; 
+              transition: all 1s;
+            }
+        
+            nav ul li{
+              display: block;
+              padding: 30px 180px;
+              text-transform: uppercase;
+            }
+        
+            
+        
+            #check:checked ~ ul {
+              left: 0;
+            }
+          }
+          }
       
-      @media (max-width: 800px) {
-        .bars {
-          display: block;
-        }
-      }
+
       
  

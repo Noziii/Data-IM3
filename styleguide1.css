@@ -182,24 +182,50 @@ body {
      color: white;
     }
 
-    .bars {
-        font-size: 30px;
-        margin-left: 40px;
-        color: white;
-        line-height: 80px;
-        cursor: pointer;
-        display: none;
+    #check {
+      display: none;
+    }
+    
+    @media (max-width: 800px) {
+      .bars {
+        display: block;
       }
-      
-      
-      #check {
-        display: none;
+  
+      nav ul{
+        position: absolute;
+        width: 100%;
+        background-color: rgba(27, 26, 26, 0.837);
+        height: 100vh;
+        top: 63px;
+        left: -110%; 
+        transition: all 1s;
       }
+  
+      nav ul li{
+        display: block;
+        padding: 30px 180px;
+        text-transform: uppercase;
+      }
+  
       
-      @media (max-width: 800px) {
-        .bars {
-          display: block;
+  
+      #check:checked ~ ul {
+        left: 0;
+      }
+   }
+      @media only screen and (max-width:800px) {
+        /* For tablets: */
+        .main {
+          width: 80%;
+          padding: 0;
         }
-      }
+        .right {
+          width: 100%;
+        }
+  
+    }
+  
+
+      
       
  

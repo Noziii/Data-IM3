@@ -3,7 +3,7 @@ body {
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     background-image: url(images/mathilde-langevin-LdPzzJcrPLM-unsplash.jpg);
     background-size: cover;
-    height: 786vh;
+    height: 436vh;
   }
 
  
@@ -62,12 +62,22 @@ body {
     font-family: Georgia;
     font-weight: bold;
     line-height: 120px;
-    margin-left: 200px;
+    margin-left: 250px;
     position: center;  
     padding: 10px 10px;
     text-align: center;
   }
-
+  .names{
+    color: rgb(245, 242, 242);
+    font-size: 70px;
+    font-family: Georgia;
+    font-weight: bold;
+    line-height: 120px;
+    margin-left: 450px;
+    position: center;  
+    padding: 10px 10px;
+    text-align: center;
+  }
   .sub {
     font-family: Georgia;
     font-weight: bold;
